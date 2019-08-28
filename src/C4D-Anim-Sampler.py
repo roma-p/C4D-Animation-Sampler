@@ -44,7 +44,7 @@ def getStartEndFrame(obj, fps_doc):
             startFrame = s_tmp
         if endFrame < e_tmp or endFrame == -1:
             endFrame = e_tmp
-    return startFps, endFrame
+    return startFrame, endFrame
 
 
 # Sample a given object by skipping a skipped_fps_rate number of frame.
